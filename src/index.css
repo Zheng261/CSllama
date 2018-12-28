@@ -6,9 +6,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: scroll;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.TBText {
+	font-family: "Lato", sans-serif;
+	letter-spacing: 0.2em;
+	margin-left:5px;
+	margin-right:5px;
+	font-size: 18px;
+	text-transform: none;
+	font-style: bold;
+	color: #E1E1E1;
+}
+
+.LogoText {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1em;
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 25px;
+  text-transform: none;
+  font-style: bold;
+  color: #E1E1E1;
+}
+
+.toolBar {
+	position: sticky;
 }

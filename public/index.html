@@ -38,3 +38,24 @@
     -->
   </body>
 </html>
+<script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+<script src="../src/index.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBgcq52L_vLW4cGohKL107LjdSsETvoMf4",
+    authDomain: "csllama-d361c.firebaseapp.com",
+    databaseURL: "https://csllama-d361c.firebaseio.com",
+    projectId: "csllama-d361c",
+    storageBucket: "csllama-d361c.appspot.com",
+    messagingSenderId: "636691056563"
+  };
+  firebase.initializeApp(config);
+  // Initialize Cloud Firestore through Firebase
+  var db = firebase.firestore();
+
+  // Disable deprecated features
+  db.settings({
+    timestampsInSnapshots: true
+  });
+</script>

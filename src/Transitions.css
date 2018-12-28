@@ -1,0 +1,23 @@
+.homeTransition-appear{
+  opacity: 0.01;
+}
+
+.homeTransition-enter{
+  opacity: 1;
+}
+ 
+.homeTransition-appear.homeTransition-appear-active{
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.homeTransition-leave {
+  opacity: 1;
+  position:absolute
+}
+
+.homeTransition-leave.homeTransition-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+  position:absolute
+}
