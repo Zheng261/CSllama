@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PaperSheet from './Paper.js'
 import logo from './logo.svg';
 import './Transitions.css'
 import { CSSTransitionGroup } from 'react-transition-group'
@@ -17,7 +18,7 @@ class CS109 extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h3>CS109</h3>
         </header>
-        
+        <PaperSheet header = "yep" content ="yah"></PaperSheet>
       </div>
       </CSSTransitionGroup>
     );
